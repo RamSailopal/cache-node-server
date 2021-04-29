@@ -26,6 +26,13 @@ Including an example of how to use your role (for instance, with variables passe
       instname: TEST1
       ...
 
+Further Information
+-------------------
+
+The git repo referenced in the role to install the service gateway:
+
+https://github.com/chrisemunt/mgsi
+
 License
 -------
 
