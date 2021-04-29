@@ -13,9 +13,9 @@ cmd()
        sleep 2;
        echo "ZN \"%SYS\"";
        sleep 2;
-       echo "do $system.OBJ.Load(\"/usr/local/mgsi/isc/zmgsi_isc.ro\",\"ck\")";
+       echo "do \$system.OBJ.Load(\"/usr/local/mgsi/isc/zmgsi_isc.ro\",\"ck\")";
        sleep 2;
-       echo "do do start^%zmgsi(0)";
+       echo "do start^%zmgsi(0)";
        sleep 2
        echo "H";
 }
