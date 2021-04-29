@@ -49,4 +49,3 @@
 - name: Print whether the install has gone through or not
   debug: msg="The service gateway for nodejs has NOT been installed successfully"
   when: outpt.stdout is not search("Service gateway process is running")
-
